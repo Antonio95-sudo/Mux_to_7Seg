@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Mux_to_7Seg.srcs/sources_1/new/Mux.v" \
+"../../../../Mux_to_7Seg.srcs/sources_1/new/Top.v" \
+"../../../../Mux_to_7Seg.srcs/sources_1/new/seven_seg.v" \
+"../../../../Mux_to_7Seg.srcs/sim_1/new/TB_MUX.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

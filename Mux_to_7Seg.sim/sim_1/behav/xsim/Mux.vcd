@@ -1,0 +1,38 @@
+$date
+   Wed Jun 22 18:26:58 2022
+$end
+$version
+  2020.2
+$end
+$timescale
+  1ps
+$end
+$scope module TB_MUX $end
+$var reg 4 ! A [3:0] $end
+$var reg 4 " B [3:0] $end
+$var reg 1 # S $end
+$var wire 4 $ OUT [3:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b1111 "
+0#
+b1111 $
+$end
+#2000
+b0 !
+b1111 "
+1#
+b0 $
+#4000
+b100 !
+b1001 "
+0#
+b1001 $
+#6000
+b1 !
+b1000 "
+1#
+b1 $
